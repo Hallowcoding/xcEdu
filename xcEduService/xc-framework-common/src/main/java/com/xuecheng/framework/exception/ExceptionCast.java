@@ -3,13 +3,15 @@ package com.xuecheng.framework.exception;
 import com.xuecheng.framework.model.response.ResultCode;
 
 /**
- * @author Administrator
- * @version 1.0
- * @create 2018-09-14 17:31
+ * ExceptionCast
+ *
+ * @author th
+ * 2019/6/25 1:22
  **/
 public class ExceptionCast {
 
-    public static void cast(ResultCode resultCode){
+    public static void cast(ResultCode resultCode) {
+
         throw new CustomException(resultCode);
     }
 }

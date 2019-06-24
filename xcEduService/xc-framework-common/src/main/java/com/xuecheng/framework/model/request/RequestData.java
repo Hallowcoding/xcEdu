@@ -4,8 +4,11 @@ import lombok.Data;
 import lombok.ToString;
 
 /**
- * Created by mrt on 2018/3/5.
- */
+ * RequestData
+ *
+ * @author th
+ * 2019/6/25 0:55
+ **/
 @Data
 @ToString
 public class RequestData {

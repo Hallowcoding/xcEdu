@@ -7,9 +7,13 @@ import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
 
 /**
- * Created by mrt on 2018/5/22.
- */
+ * BaseController
+ *
+ * @author th
+ * 2019/6/25 1:49
+ **/
 public class BaseController {
+
     protected HttpServletRequest request;
 
     protected HttpServletResponse response;
@@ -18,12 +22,8 @@ public class BaseController {
 
     @ModelAttribute
     public void setReqAndRes(HttpServletRequest request, HttpServletResponse response) {
-
         this.request = request;
-
         this.response = response;
-
         this.session = request.getSession();
-
     }
 }
