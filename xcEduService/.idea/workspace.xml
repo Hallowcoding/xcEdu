@@ -1,29 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b46fffb2-11e7-42fc-a37c-2cf97ff47798" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/BCryptUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/CookieUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/GenerateOrderNum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/HlsVideoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/HttpClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/MD5Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/Mp4VideoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/Oauth2Util.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/Snowflake.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/SnowflakeIdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/VideoUtil.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/XcOauth2Util.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/.name" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/copyright/profiles_settings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-parent/.idea/workspace.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/ZipUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/xc-framework-utils/src/main/java/com/xuecheng/framework/utils/ZipUtil.java" afterDir="false" />
-    </list>
+    <list default="true" id="b46fffb2-11e7-42fc-a37c-2cf97ff47798" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/xc-framework-parent/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-common/target/" />
     <ignored path="$PROJECT_DIR$/xc-framework-model/target/" />
@@ -217,41 +195,6 @@
               <item name="xcEduService" type="b2602c69:ProjectViewProjectNode" />
               <item name="xcEduService" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="xcEduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="xcEduService" type="b2602c69:ProjectViewProjectNode" />
-              <item name="xcEduService" type="462c0819:PsiDirectoryNode" />
-              <item name="xc-framework-utils" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -262,6 +205,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/xc-service-api" />
@@ -314,15 +258,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1561476292038</updated>
-      <workItem from="1561476298898" duration="7268000" />
+      <workItem from="1561476298898" duration="7763000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7268000" />
+    <option name="totallyTimeSpent" value="7763000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Designer" />
       <window_info id="Image Layers" />
@@ -536,6 +480,9 @@
           </folding>
         </state>
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
   </component>
   <component name="masterDetails">
