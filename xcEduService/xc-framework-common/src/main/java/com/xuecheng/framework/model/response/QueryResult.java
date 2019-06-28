@@ -1,5 +1,7 @@
 package com.xuecheng.framework.model.response;
 
+import lombok.Data;
+
 import java.util.List;
 
 /**
@@ -8,6 +10,7 @@ import java.util.List;
  * @author th
  * 2019/6/25 1:14
  **/
+@Data
 public class QueryResult<T> {
 
     /** 数据列表*/

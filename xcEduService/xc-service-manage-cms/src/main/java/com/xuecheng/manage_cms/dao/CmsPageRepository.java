@@ -1,0 +1,16 @@
+package com.xuecheng.manage_cms.dao;
+
+import com.xuecheng.framework.domain.cms.CmsPage;
+import org.springframework.data.mongodb.repository.MongoRepository;
+
+/**
+ * CmsPageRepository
+ *
+ * @author th
+ * 2019/6/28 14:36
+ **/
+public interface CmsPageRepository extends MongoRepository<CmsPage, String> {
+
+    /**根据页面名称查询*/
+    CmsPage findByPageName(String pageName);
+}
