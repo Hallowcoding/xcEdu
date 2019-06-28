@@ -8,10 +8,9 @@ import com.xuecheng.framework.model.response.CommonCode;
 import com.xuecheng.framework.model.response.QueryResponseResult;
 import com.xuecheng.framework.model.response.QueryResult;
 import com.xuecheng.framework.model.response.ResponseResult;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.bind.annotation.RestControllerAdvice;
+import com.xuecheng.manage_cms.service.PageService;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -22,24 +21,18 @@ import java.util.List;
  * @author th
  * 2019/6/28 10:53
  **/
-@RestController("/page")
+@RestController
+@RequestMapping("/cms/page")
 public class CmsPageController implements CmsPageControllerApi {
+
+    @Autowired
+    PageService pageService;
 
     @Override
     @GetMapping("/list/{page}/{size}")
     public QueryResponseResult findList(@PathVariable("page") int page, @PathVariable("size") int size, QueryPageRequest queryPageRequest) {
 
-        QueryResult queryResult = new QueryResult();
-        queryResult.setTotal(2);
-
-        List<CmsPage> list = new ArrayList<CmsPage>();
-        CmsPage cmsPage = new CmsPage();
-        cmsPage.setPageName("测试页面");
-        list.add(cmsPage);
-        queryResult.setList(list);
-
-        QueryResponseResult queryResponseResult = new QueryResponseResult(CommonCode.SUCCESS, queryResult);
-        return queryResponseResult;
+        return pageService.findList(page, size, queryPageRequest);
     }
 
     @Override
