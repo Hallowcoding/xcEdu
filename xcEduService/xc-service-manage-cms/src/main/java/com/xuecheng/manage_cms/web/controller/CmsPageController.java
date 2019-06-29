@@ -41,12 +41,13 @@ public class CmsPageController implements CmsPageControllerApi {
     }
 
     @Override
-    public CmsPage findById(String id) {
-        return null;
+    @GetMapping("/find")
+    public CmsPage findById(@RequestParam("id") String id) {
+        return pageService.findById(id);
     }
 
     @Override
-    public CmsPageResult edit(String id, CmsPage cmsPage) {
+    public CmsPageResult update(String id, CmsPage cmsPage) {
         return null;
     }
 

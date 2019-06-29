@@ -36,16 +36,16 @@ public enum CommonCode implements ResultCode {
 
     @Override
     public boolean success() {
-        return false;
+        return this.success;
     }
 
     @Override
     public int code() {
-        return 0;
+        return this.code;
     }
 
     @Override
     public String message() {
-        return null;
+        return this.message;
     }
 }

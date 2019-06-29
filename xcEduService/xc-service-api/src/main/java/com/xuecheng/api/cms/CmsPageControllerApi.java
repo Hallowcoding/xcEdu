@@ -39,7 +39,7 @@ public interface CmsPageControllerApi {
 
     //修改页面
     @ApiOperation("修改页面")
-    public CmsPageResult edit(String id, CmsPage cmsPage);
+    public CmsPageResult update(String id, CmsPage cmsPage);
 
     //删除页面
     @ApiOperation("删除页面")
